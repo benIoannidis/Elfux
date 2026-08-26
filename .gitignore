@@ -1,0 +1,5 @@
+target/
+sysroot/dev/*
+sysroot/proc/*
+sysroot/sys/*
+*.cpio.gz

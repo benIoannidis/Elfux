@@ -1,0 +1,8 @@
+[package]
+name = "rust_init"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libc = "0.2"
+nix = { version = "0.28", features = ["mount", "process", "signal", "reboot", "user" ] }
