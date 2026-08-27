@@ -1,0 +1,13 @@
+[package]
+name = "elfux-wm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+smithay = { version = "0.3", features = ["backend_winit", "renderer_gl", "wayland_frontend"] }
+
+calloop = "0.12"
+wayland-server = "0.30"
+
+tracing = "0.1"
+tracing-subscriber = "0.3"
