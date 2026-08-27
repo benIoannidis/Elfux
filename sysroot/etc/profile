@@ -1,4 +1,0 @@
-alias poweroff='/bin/poweroff'
-alias reboot='/bin/reboot'
-
-/bin/elfetch

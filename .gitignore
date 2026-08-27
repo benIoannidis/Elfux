@@ -1,5 +1,28 @@
-target/
-sysroot/dev/*
-sysroot/proc/*
-sysroot/sys/*
+#host build outputs nd staging stuff
+/.diskroot/
+/sysroot/
+/.pkg-cache/
+/iso_root/
+
+#disk imgs and compressed files
+*.raw
+*.qcow2
+*.qcow2.bak
 *.cpio.gz
+*.iso
+*.squashfs
+
+
+#rust cargo build dirs
+**/target/
+Cargo.lock
+
+#junk
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+#temp logs and outputs
+*.log
